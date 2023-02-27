@@ -1,3 +1,45 @@
+# 启动项目
+
+```
+1.
+    拉取项目
+```
+
+```
+git clone git@github.com:noviceusr/baseTemplate-admin-nestjs.git
+```
+
+```
+2.
+    建立一个 名为 vue_admin_template 的mysql数据库
+ 
+3.
+    在.env文件中配置好账号密码  root:123456 账号:密码
+    
+4.
+    安装依赖
+    pnpm i
+    
+5.
+    迁移数据库
+    npx prisma migrate dev
+    
+6. 
+    运行项目
+    pnpm run start:dev
+```
+
+```
+7. 
+    swagger来测试接口
+    访问 http://localhost:3000/admin-api
+
+8.
+    apipost来测试接口
+    将apipost目录里面的json文件导入到apipost软件中
+```
+
+
 # 权限说明
 
 ```
